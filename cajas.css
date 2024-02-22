@@ -1,0 +1,47 @@
+body{
+    background-color: green;
+}
+
+
+.tarjeta{
+    
+    border: 2px solid rgb(173, 46, 37) ;
+    border-radius: 10px;
+
+    background-color: green;
+    width: 100%;
+    -webkit-box-shadow: 1px 1px 50px 0px rgba(252,252,252,1);
+    -moz-box-shadow: 1px 1px 50px 0px rgba(252,252,252,1);
+    box-shadow: 1px 1px 50px 0px rgba(252,252,252,1);
+    
+}
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+   padding-bottom: 20px;
+}
+img{
+    display: block;
+    margin: 0 auto ;
+    height: 100%;
+    width: 45%;
+}
+a:link{
+    display: block;
+    color: white;
+    font-size: 20px;
+
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(54, 127, 196);
+    height: 50px;
+    padding-top: 20px;
+
+}
+p{
+    padding-left: 5%;
+}
